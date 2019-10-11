@@ -16,11 +16,6 @@ class ofApp : public ofBaseApp{
     
     ofPixels pixels; // Collect slits from the camera and accumulate them side by side in pixels.
     
-    int xPosition = 0; // The current x position of the slits in our pixels.
-    
-    int ySteps = 1;
-    
-    const float liveFeedWidth = 200;
-    
+    float liveFeedWidth = 200; // set where the slit scan begins
 		
 };
